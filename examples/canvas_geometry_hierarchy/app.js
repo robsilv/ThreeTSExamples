@@ -1,5 +1,3 @@
-///<reference path="../../lib/stats.d.ts" />
-///<reference path="../../lib/three.d.ts" />
 window.onload = function () {
     var example = new CanvasGeometryHierarchyExample();
     example.init();

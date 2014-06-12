@@ -1,7 +1,4 @@
-﻿///<reference path="../../lib/stats.d.ts" />
-///<reference path="../../lib/three.d.ts" />
-
-window.onload = () => {
+﻿window.onload = () => {
     var example = new CanvasGeometryCubeExample();
     example.init();
     example.animate();
