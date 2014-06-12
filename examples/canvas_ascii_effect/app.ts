@@ -11,8 +11,8 @@ class CanvasAsciiEffectExample {
     stats: Stats;
     
     camera: THREE.PerspectiveCamera;
-    controls: THREE.TrackballControls;
-    effect: THREE.AsciiEffect;
+    controls: any;//THREE.TrackballControls;
+    effect: any;//THREE.AsciiEffect;
     scene: THREE.Scene;
     renderer: THREE.CanvasRenderer;
 

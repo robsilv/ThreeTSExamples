@@ -17,12 +17,12 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="app.css" />
-    <Content Include="index.html" />
+    <Content Include="examples\canvas_ascii_effect\canvas_ascii_effect.html" />
+    <Content Include="examples\canvas_ascii_effect\index.html" />
+    <Content Include="examples\canvas_geometry_cube\index.html" />
+    <Content Include="examples\canvas_geometry_hierarchy\index.html" />
+    <Content Include="examples\index.html" />
     <Content Include="web.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <TypeScriptCompile Include="app.ts" />
   </ItemGroup>
   <ItemGroup>
     <None Include="web.Debug.config">
@@ -31,6 +31,15 @@
     <None Include="web.Release.config">
       <DependentUpon>web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <TypeScriptCompile Include="examples\canvas_ascii_effect\app.ts" />
+    <TypeScriptCompile Include="examples\canvas_ascii_effect\app2.ts" />
+    <TypeScriptCompile Include="examples\canvas_geometry_cube\app.ts" />
+    <TypeScriptCompile Include="examples\canvas_geometry_hierarchy\app.ts" />
+    <TypeScriptCompile Include="examples\js\three-tests-setup.d.ts" />
+    <TypeScriptCompile Include="lib\stats.d.ts" />
+    <TypeScriptCompile Include="lib\three.d.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
