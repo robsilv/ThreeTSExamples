@@ -1,6 +1,0 @@
-D:\github\ThreeTSExamples\bin\ThreeTSExamples.dll.config
-D:\github\ThreeTSExamples\bin\ThreeTSExamples.dll
-D:\github\ThreeTSExamples\bin\ThreeTSExamples.pdb
-D:\github\ThreeTSExamples\obj\Debug\ThreeTSExamples.dll
-D:\github\ThreeTSExamples\obj\Debug\ThreeTSExamples.pdb
-D:\github\ThreeTSExamples\obj\Debug\ThreeTSExamples.csprojResolveAssemblyReference.cache
