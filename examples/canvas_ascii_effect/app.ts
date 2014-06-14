@@ -1,3 +1,5 @@
+/// <reference path="../../lib/three.d.ts" />
+/// <reference path="../js/three-tests-setup.d.ts" />
 
 window.onload = () => {
     var example = new CanvasAsciiEffectExample();
@@ -11,8 +13,8 @@ class CanvasAsciiEffectExample {
     stats: Stats;
     
     camera: THREE.PerspectiveCamera;
-    controls: any;//THREE.TrackballControls;
-    effect: any;//THREE.AsciiEffect;
+    controls;//: THREE.TrackballControls;
+    effect;//: THREE.AsciiEffect;
     scene: THREE.Scene;
     renderer: THREE.CanvasRenderer;
 
@@ -66,7 +68,7 @@ class CanvasAsciiEffectExample {
         this.renderer = new THREE.CanvasRenderer();
         this.renderer.setSize( width, height );
 
-        //this.effect = new THREE.AsciiEffect(this.renderer);
+        this.effect = new THREE.AsciiEffect(this.renderer);
         this.effect.setSize( width, height );
         this.container.appendChild(this.effect.domElement);
 

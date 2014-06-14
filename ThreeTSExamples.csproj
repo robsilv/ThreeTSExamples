@@ -17,7 +17,6 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="examples\canvas_ascii_effect\canvas_ascii_effect.html" />
     <Content Include="examples\canvas_ascii_effect\index.html" />
     <Content Include="examples\canvas_geometry_cube\index.html" />
     <Content Include="examples\canvas_geometry_hierarchy\index.html" />
@@ -34,7 +33,6 @@
   </ItemGroup>
   <ItemGroup>
     <TypeScriptCompile Include="examples\canvas_ascii_effect\app.ts" />
-    <TypeScriptCompile Include="examples\canvas_ascii_effect\app2.ts" />
     <TypeScriptCompile Include="examples\canvas_geometry_cube\app.ts" />
     <TypeScriptCompile Include="examples\canvas_geometry_hierarchy\app.ts" />
     <TypeScriptCompile Include="examples\js\three-tests-setup.d.ts" />

@@ -2,6 +2,8 @@
 // https://github.com/mrdoob/three.js/tree/master/examples
 //////////////////////////////////////////////////////////////
 
+/// <reference path="../../lib/three.d.ts" />
+
 declare var Detector: any;
 
 declare module THREE {

@@ -1,3 +1,5 @@
+/// <reference path="../../lib/three.d.ts" />
+/// <reference path="../js/three-tests-setup.d.ts" />
 window.onload = function () {
     var example = new CanvasAsciiEffectExample();
     example.init();
@@ -77,7 +79,7 @@ var CanvasAsciiEffectExample = (function () {
         this.renderer = new THREE.CanvasRenderer();
         this.renderer.setSize(width, height);
 
-        //this.effect = new THREE.AsciiEffect(this.renderer);
+        this.effect = new THREE.AsciiEffect(this.renderer);
         this.effect.setSize(width, height);
         this.container.appendChild(this.effect.domElement);
 
